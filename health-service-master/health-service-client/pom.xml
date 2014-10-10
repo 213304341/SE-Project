@@ -27,11 +27,11 @@
             <scope>provided</scope>
         </dependency>
         
-        <!--dependency>
+        <dependency>
 	   <groupId>za.co.dreamteam</groupId>
 	   <artifactId>health-common</artifactId>
 	   <version>${project.version}</version>
-        </dependency-->    
+        </dependency>    
 
     </dependencies>
 

@@ -7,22 +7,14 @@
         <version>0.1</version>
         <relativePath>../health-service-master/pom.xml</relativePath>
     </parent>
-        
-    <groupId>za.co.dreamteam</groupId>
     <artifactId>health-persistence</artifactId>
-    <version>0.1</version>
-    <packaging>pom</packaging>
-    <name>health-persistence</name>
-
-    <dependencies>
-        <dependency>
-	   <groupId>za.co.dreamteam</groupId>
-	   <artifactId>health-service-client</artifactId>
-	   <version>${project.version}</version>
-        </dependency>    
-    </dependencies>
+    <packaging>jar</packaging>
     
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <dependencies>
+      <dependency>
+	 <groupId>za.co.dreamteam</groupId>
+	 <artifactId>health-common</artifactId>
+	 <version>${project.version}</version>
+      </dependency>
+    </dependencies>
 </project>
