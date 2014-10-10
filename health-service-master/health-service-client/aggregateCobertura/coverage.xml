@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.0" branch-rate="1.0" lines-covered="0" lines-valid="3" branches-covered="0" branches-valid="0" complexity="1.0" version="2.0.3" timestamp="1412931075004">
+	<sources>
+		<source>--source</source>
+		<source>C:/workspace/SE-Project/health-service-master/health-service-client/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="za.co.dreamteam" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="za.co.dreamteam.Main" filename="za/co/dreamteam/Main.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="7" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="10" hits="0" branch="false"/>
+								<line number="11" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="7" hits="0" branch="false"/>
+						<line number="10" hits="0" branch="false"/>
+						<line number="11" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

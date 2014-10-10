@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>za.co.dreamteam</groupId>
+        <artifactId>health-service-master</artifactId>
+        <version>0.1</version>
+        <relativePath>../health-service-master/pom.xml</relativePath>
+    </parent>
+        
+    <groupId>za.co.dreamteam</groupId>
+    <artifactId>health-ee-ear</artifactId>
+    <version>0.1</version>
+    <packaging>ear</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    
+   <dependencies>
+       <!--dependency>
+         <groupId>za.co.dreamteam</groupId>
+         <artifactId>health-common</artifactId>
+         <version>${project.version}</version>
+         <type>jar</type>
+       </dependency-->
+
+       <!--  EJB client module dependency -->
+       <dependency>
+         <groupId>za.co.dreamteam</groupId>
+         <artifactId>health-service-client</artifactId>
+         <version>${project.version}</version>
+         <type>jar</type>
+       </dependency>
+       
+       <!-- JPA Persistence module  -->
+       <!--dependency>
+         <groupId>za.co.dreamteam</groupId>
+         <artifactId>health-persistence</artifactId>
+         <version>${project.version}</version>
+         <type>jar</type>
+       </dependency-->
+
+       <!--  EJB module dependency -->
+       <dependency>
+         <groupId>za.co.dreamteam</groupId>
+         <artifactId>health-service</artifactId>
+         <version>${project.version}</version>
+         <type>ejb</type>
+       </dependency>
+
+       <!-- Web module  -->
+       <dependency>
+         <groupId>za.co.dreamteam</groupId>
+         <artifactId>health-web</artifactId>
+         <version>${project.version}</version>
+         <type>war</type>
+       </dependency>
+   </dependencies>
+</project>

@@ -296,11 +296,11 @@
   </dependencies>  
   
   <modules>
-  	<!--module>../health-common</module>
-  	<module>../health-service-client</module>
-  	<module>../health-service</module>
-  	<module>../health-enterprise</module>
-  	<module>../health-web</module>
-  	<module>../health-enterprise-ear</module-->
+    <module>health-common</module>
+    <module>health-ee-ear</module>
+    <module>health-persistence</module>
+    <module>health-service</module>
+    <module>health-service-client</module>
+    <module>health-web</module>
   </modules>
 </project>
