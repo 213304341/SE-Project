@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.0" branch-rate="0.0" lines-covered="0" lines-valid="145" branches-covered="0" branches-valid="118" complexity="2.4791666666666665" version="2.0.3" timestamp="1412953226057">
+<coverage line-rate="0.0" branch-rate="0.0" lines-covered="0" lines-valid="145" branches-covered="0" branches-valid="118" complexity="2.4791666666666665" version="2.0.3" timestamp="1413269986430">
 	<sources>
 		<source>C:/workspace/SE-Project/health-service-master/health-persistence/src/main/java</source>
 		<source>C:/workspace/SE-Project/health-service-master/health-service/src/main/java</source>
