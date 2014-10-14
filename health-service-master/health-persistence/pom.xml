@@ -16,5 +16,10 @@
 	 <artifactId>health-common</artifactId>
 	 <version>${project.version}</version>
       </dependency>
+        <dependency>
+            <groupId>org.eclipse.persistence</groupId>
+            <artifactId>eclipselink</artifactId>
+            <version>2.5.1</version>
+        </dependency>
     </dependencies>
 </project>
